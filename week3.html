@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" type="text/css" href="./cssStyle.css">
+    <!-- embedded css -->
+    <style>
+        /* * {
+            text-align: center;
+        } */
+
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20pt;
+            text-align: center;
+        }
+        table, th, td {
+
+            border: 1px solid;
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+
+        }
+        /* class */
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        /* id */
+        #myID {
+
+            color: red;
+            text-align: center;
+        }
+
+        .h1_one_center {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20pt;
+            text-align: center;
+        }
+
+        .h1_three_center {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20pt;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+
+    <h1 class="h1_one_center">Welcome to Web Development Class!</h1>
+
+    <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: small;">Welcome to FSKTM!</h1>
+   
+    <!--
+    <h2>Welcome to Web Development Class!</h2>
+    <h3>Welcome to Web Development Class!</h3>
+    <h4>Welcome to Web Development Class!</h4>
+    <h5>Welcome to Web Development Class!</h5>
+    <h6>Welcome to Web Development Class!</h6> -->
+
+    <!-- inline -->
+    <p style="text-align: center;color:blue">Our class will be on <span style="color: red;">Tuesday</span></p>
+    
+    
+    
+    
+    <p id="myID">Lab will be on Wednesday</p>
+    <ol>
+        <li>Laptop</li>
+        <li>VSCode</li>
+    </ol>
+
+    <ul>
+        <li>Laptop</li>
+        <li>VSCode</li>
+    </ul>
+
+    <a href="https://www.uthm.edu.my/en/">UTHM</a>
+    <br> <!-- new line -->
+    <img class="center" src="./png-transparent-logo-html-html5.png" width="200" height="200">
+
+    <table>
+        <tr>
+            <th>Hardware</th>
+            <th>Brand</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>CPU</td>
+            <td>Intel</td>
+            <td>11 generation</td>
+        </tr>
+        <tr>
+            <td>Memory</td>
+            <td>Corsair</td>
+            <td>1333MHz</td>
+        </tr>
+    </table>
+<br><br><br>
+    <form name="registration">
+
+        Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fullname"> <br>
+        Password: <input type="password"><br>
+        Gender: <input type="radio" name="gender" value="male">Male<br>
+        <input type="radio" name="gender" value="female">Female<br>
+        Vehicle: <input type="checkbox" name="vehicle" value="Bike">I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car">I have a car  <br>
+        Cars: <select name="cars">
+            <option value="" default>Please select</option>
+            <option value="Saab">Saab</option>
+            <option value="volvo">Volvo</option>
+            </select> <br>
+
+        <input type="submit" value="Click Me!">
+    
+    </form>
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- git branch -M main
+git remote add origin https://github.com/ariffinmzin/webdev_week_3_2023.git
+git push -u origin main -->
